@@ -24,3 +24,7 @@ It's user-friendly, easy to grasp, and easy to implement.
 %make_install -C build
 
 %files
+%{_includedir}/hyprlang.hpp
+%{_prefix}/lib/libhyprlang.so
+%{_libdir}/libhyprlang.so
+%{_datadir}/pkgconfig/hyprlang.pc

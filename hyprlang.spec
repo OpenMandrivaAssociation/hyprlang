@@ -5,7 +5,7 @@ Summary:        The official implementation library for the hypr config language
 License:        GPL3.0
 Group:          Hyprland
 URL:            https://github.com/hyprwm/%{name}
-Source0:        https://github.com/hyprwm/hyprlang/releases/download/v%{version}/v%{version}.tar.gz
+Source0:        https://github.com/hyprwm/hyprlang/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  cmake
 

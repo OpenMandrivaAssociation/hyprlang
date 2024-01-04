@@ -8,6 +8,7 @@ URL:            https://github.com/hyprwm/%{name}
 Source0:        https://github.com/hyprwm/hyprlang/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  cmake
+Provides:       hyprlang-devel
 
 %description
 The hypr configuration language is an extremely efficient, yet easy to work with, configuration language for linux applications.

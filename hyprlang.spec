@@ -26,6 +26,6 @@ It's user-friendly, easy to grasp, and easy to implement.
 
 %files
 %{_includedir}/hyprlang.hpp
-%{_prefix}/lib/libhyprlang.so
+#{_prefix}/lib/libhyprlang.so
 %{_libdir}/libhyprlang.so
-%{_datadir}/pkgconfig/hyprlang.pc
+#{_datadir}/pkgconfig/hyprlang.pc

@@ -8,6 +8,7 @@ URL:            https://github.com/hyprwm/%{name}
 Source0:        https://github.com/hyprwm/hyprlang/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  cmake
+BuildRequires:  cmake(boost_iostreams)
 Provides:       hyprlang-devel
 
 %description

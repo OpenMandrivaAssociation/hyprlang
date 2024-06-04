@@ -19,6 +19,8 @@ It's user-friendly, easy to grasp, and easy to implement.
 %autosetup -p1
  
 %build
+export CC=gcc
+export CXX=g++
 %cmake
 %make_build
  

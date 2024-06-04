@@ -9,6 +9,7 @@ Source0:        https://github.com/hyprwm/hyprlang/archive/refs/tags/v%{version}
 
 BuildRequires:  cmake
 BuildRequires:  c++-devel
+BuildRequires:  pkgconfig(libunwind-llvm)
 Provides:       hyprlang-devel
 
 %description

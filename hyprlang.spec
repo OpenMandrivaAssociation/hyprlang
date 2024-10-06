@@ -1,6 +1,6 @@
 Name:           hyprlang
-Version:        0.5.2
-Release:        2
+Version:        0.5.3
+Release:        1
 Summary:        The official implementation library for the hypr config language.
 License:        GPL3.0
 Group:          Hyprland
@@ -10,6 +10,7 @@ Source0:        https://github.com/hyprwm/hyprlang/archive/refs/tags/v%{version}
 BuildRequires:  cmake
 BuildRequires:  c++-devel
 BuildRequires:  pkgconfig(libunwind-llvm)
+BuildRequires:  pkgconfig(hyprutils)
 Provides:       hyprlang-devel
 
 %description

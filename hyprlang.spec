@@ -1,6 +1,6 @@
 Name:           hyprlang
 Version:        0.6.0
-Release:        4
+Release:        5
 Summary:        The official implementation library for the hypr config language.
 License:        GPL3.0
 Group:          Hyprland

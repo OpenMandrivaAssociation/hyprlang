@@ -1,11 +1,13 @@
 Name:           hyprlang
-Version:        0.6.5
+Version:        0.6.6
 Release:        1
 Summary:        The official implementation library for the hypr config language.
 License:        LGPLv3.0
 Group:          Hyprland
 URL:            https://github.com/hyprwm/%{name}
-Source0:        https://github.com/hyprwm/hyprlang/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
+Source0:        https://github.com/hyprwm/hyprlang/archive/v%{version}/%{name}-%{version}.tar.gz
+
+BuildSystem:    cmake
 
 BuildRequires:  cmake
 BuildRequires:  c++-devel
@@ -19,13 +21,6 @@ It's user-friendly, easy to grasp, and easy to implement.
 
 %prep
 %autosetup -p1
-
-%build
-%cmake
-%make_build
-
-%install
-%make_install -C build
 
 %files
 %{_includedir}/hyprlang.hpp

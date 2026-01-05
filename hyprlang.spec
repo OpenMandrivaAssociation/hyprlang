@@ -1,6 +1,6 @@
 Name:           hyprlang
-Version:        0.6.7
-Release:        2
+Version:        0.6.8
+Release:        1
 Summary:        The official implementation library for the hypr config language.
 License:        LGPLv3.0
 Group:          Hyprland
@@ -26,6 +26,5 @@ It's user-friendly, easy to grasp, and easy to implement.
 %{_includedir}/hyprlang.hpp
 %{_libdir}/libhyprlang.so.2
 %{_libdir}/libhyprlang.so.%{version}
-#%{_libdir}/libhyprlang.so.0.6.3
 %{_libdir}/libhyprlang.so
 %{_libdir}/pkgconfig/hyprlang.pc
